@@ -51,8 +51,6 @@ In the Shell, run:
 npm install -g @openai/codex
 ```
 
-![npm install codex](https://i.imgur.com/placeholder-install.png)
-
 Wait for the installation to complete. You should see a success message with the installed version.
 
 Verify the install worked:
@@ -89,7 +87,6 @@ Or, for persistence across sessions, add it to Replit's **Secrets**:
    - **Value:** `sk-your-key-here`
 3. Click **Add Secret**
 
-![Replit Secrets Panel](https://i.imgur.com/placeholder-secrets.png)
 
 > Secrets are automatically loaded into your shell environment — you won't need to `export` them every session.
 
@@ -129,7 +126,6 @@ URL='http://127.0.0.1:PORT/callback?code=xxxxx&state=xxxxx'
 curl -i "$URL"
 ```
 
-![Two Shell Tabs Workaround](https://i.imgur.com/placeholder-curl.png)
 
 **5. Go back to the first shell tab.** Codex should now be authenticated and launch into the interactive TUI.
 
