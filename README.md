@@ -37,7 +37,7 @@ Before starting, make sure you have:
 1. Open your Repl on [replit.com](https://replit.com)
 2. In the bottom panel, click the **Shell** tab
 
-![Replit Shell Tab](https://i.imgur.com/placeholder-shell.png)
+
 
 > The shell is a full Linux terminal running inside your Repl. You'll run all Codex commands here.
 
